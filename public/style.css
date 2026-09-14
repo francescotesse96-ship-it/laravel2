@@ -1,0 +1,51 @@
+/* HEADER HOMEPAGE */
+.header{
+    background-image: url(./media/images.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-color{
+    text-shadow: 4px 4px 2px rgb(0, 0, 0.6);
+}
+
+/* pagina contatti */
+
+.box{
+    border: dotted white 2px;
+    min-height: 250px;
+    max-width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.box:hover{
+    border: 3px solid white;
+    transform: translateY(-10px);
+}
+
+.icon{
+    font-size: 50px;
+}
+
+/* sezione dipendenti */
+.userHeight{
+height: 70vh;
+}
+
+/* movies */
+.movies{
+    background-image: url(./media/images.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cardImg{
+    height: 250px;
+    object-position: center;
+}
